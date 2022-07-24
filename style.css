@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    background: #1C1C1C;
+    margin: 53px 65px; 
+
+}
+
+.container {
+    width: 550px;
+    height: 931px;
+    background: #23252C;
+    padding: 44px 117px;
+    margin-right: 65px; 
+    margin-bottom: 53px;
+}
+.main-card {
+    background: #1A1B21;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.profile-details {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    background: url(.png);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profile-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.profile-skill {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+
+}
+
+.profile-site {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+/* identical to box height, or 15px */
+    color: #F5F5F5;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+}
+
+button {
+    width: 115px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border-style: none;
+}
+
+.btn-email {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background: #fff;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+}
+
+.btn-linkdln {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background: #5093E2;
+    color: #ffffff;
+}
+
+.details {
+    padding: 0px 34px;
+    /* width: 247px; */
+    /* height: 201px; */
+}
+
+.details-title{
+    width: 242.71px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #F5F5F5;
+    margin-bottom: 5px;
+    /* padding: 0px; */
+}
+
+.details-content{
+    width: 247px;
+    height: 61px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #DCDCDC;
+    margin-bottom: 27px;
+    margin-top: 0px;
+}
+
+.div-social {
+    display: flex;
+    justify-content: space-between;
+    width: 317px;
+    height: 64px;
+    padding: 20px 73px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.multi-cards {
+    display: flex;
+    
+}
